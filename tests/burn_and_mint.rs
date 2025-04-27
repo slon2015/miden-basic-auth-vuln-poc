@@ -95,7 +95,7 @@ fn burn_and_mint_without_authentication() {
         .build()
         .execute();
 
-    // assert!(executed_transaction.is_ok());
+    assert!(executed_transaction.is_ok());
     let executed_transaction = executed_transaction.unwrap();
     assert!(executed_transaction.output_notes().num_notes() == 1);
 
