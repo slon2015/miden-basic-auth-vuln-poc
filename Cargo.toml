@@ -1,0 +1,10 @@
+[package]
+name = "faucet-auth-vuln-poc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+miden-assembly = {version = "0.13.2", features = ["testing"]}
+miden-lib = { version = "0.8.0", features = ["std", "testing"] }
+miden-objects = {version = "0.8.1", features = ["std", "testing"]}
+miden-tx = {version = "0.8.1", features = ["std", "testing"]}
